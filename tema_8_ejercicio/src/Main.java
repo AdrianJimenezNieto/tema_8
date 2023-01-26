@@ -26,4 +26,17 @@ public class Main {
         }
     }
 
+    public static void main(String args[]){
+
+        Persona persona1 = new Persona();
+        // Meto los datos en los paramemtros
+        persona1.setEdad(43);
+        persona1.setTelefono(624879123);
+        persona1.setNombre("Felipe");
+
+        // Utilizo los getter para mostrarlos por pantalla
+        System.out.println("Edad: " + persona1.getEdad());
+        System.out.println("Telefono: " + persona1.getTelefono());
+        System.out.println("Nombre: " + persona1.getNombre());
+    }
 }
